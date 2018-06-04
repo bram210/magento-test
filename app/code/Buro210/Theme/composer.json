@@ -1,0 +1,24 @@
+{
+    "name": "buro210/theme",
+    "description": "Init Backend Theme",
+    "license": "proprietary",
+    "version": "1.0.0",
+    "type": "magento2-module",
+	"authors":[
+	  {
+	     "name": "Thijs BURO210",
+	     "email": "thijs@buro210.nl",
+	     "homepage":"https://www.buro210.nl/"
+	  }
+	],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Buro210\\Theme\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

@@ -1,0 +1,332 @@
+/* Imports ============================================================= */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+/* Default styling ===================================================== */
+
+body {
+	color: #1C1819;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.4;
+	font-size: 1.6rem;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+em,
+i {
+  font-style: italic;
+}
+mark {
+  background: #f0f0f0;
+  color: #000000;
+}
+hr {
+	border: 0;
+	border-top: 1px solid #D9D7D8;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+h1 {
+	font: 700 3rem/1.1 'Lato', sans-serif;
+	margin-top: 0rem;
+	margin-bottom: 2rem;
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+h2 {
+	font-weight: 600;
+	line-height: 1.1;
+	font-size: 2.6rem;
+	margin-top: 2.5rem;
+	margin-bottom: 2rem;
+}
+h3 {
+	font-weight: 600;
+	line-height: 1.1;
+	font-size: 2.1rem;
+	margin-top: 2.5rem;
+	margin-bottom: 2rem;
+}
+h4 {
+	font-weight: 600;
+	line-height: 1.1;
+	font-size: 1.8rem;
+	margin-top: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+h5 {
+	font-weight: 600;
+	line-height: 1.1;
+	font-size: 1.2rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+h6 {
+	font-weight: 600;
+	line-height: 1;
+	font-size: 1rem;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+h1 .small,
+h2 .small,
+h3 .small,
+h4 .small,
+h5 .small,
+h6 .small {
+	color: #1C1819;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.4;
+	font-size: 1.4rem;
+}
+a,
+.alink {
+  color: #1C1819;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+a:visited,
+.alink:visited {
+  color: #1C1819;
+  text-decoration: none;
+}
+a:hover,
+.alink:hover {
+  color: #D9D7D8;
+  text-decoration: none;
+}
+a:active,
+.alink:active {
+  color: #D9D7D8;
+}
+ul,
+ol {
+  margin-top: 0rem;
+  margin-bottom: 2.5rem;
+}
+ul > li,
+ol > li {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-bottom: 0;
+}
+dl {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+dt {
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+dd {
+  margin-bottom: 10px;
+  margin-top: 0;
+  margin-left: 0;
+}
+input[type="text"],
+input[type="password"],
+input[type="url"],
+input[type="tel"],
+input[type="search"],
+input[type="number"],
+input[type="datetime"],
+input[type="email"] {
+	background: #ffffff;
+	background-clip: padding-box;
+	border: 1px solid #c2c2c2;
+	border-radius: 1px;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	height: 32px;
+	line-height: 1.4;
+	padding: 0 9px;
+	vertical-align: baseline;
+	width: 100%;
+	box-sizing: border-box;
+}
+select {
+	background: #ffffff;
+	background-clip: padding-box;
+	border: 1px solid #c2c2c2;
+	border-radius: 1px;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	height: 32px;
+	line-height: 1.4;
+	padding: 5px 10px 4px;
+	vertical-align: baseline;
+	width: 100%;
+	box-sizing: border-box;
+
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+
+	border-radius: 0px;
+	border: 1px solid #D9D7D8;
+	cursor: pointer;
+
+	background-size: 40px;
+	background: no-repeat center right /8px 4px;
+	padding-right: 28px;
+
+	transition: all .3s ease-in-out;
+}
+select:hover {
+	border-bottom-color: #1C1819;
+}
+textarea {
+	background: #ffffff;
+	background-clip: padding-box;
+	border: 1px solid #c2c2c2;
+	border-radius: 1px;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	height: auto;
+	line-height: 1.4;
+	margin: 0;
+	padding: 10px;
+	vertical-align: baseline;
+	width: 100%;
+	box-sizing: border-box;
+	resize: vertical;
+}
+._keyfocus *:focus, input:not([disabled]):focus,
+textarea:not([disabled]):focus,
+select:not([disabled]):focus {
+	box-shadow: none;
+}
+button:active,
+.cart.table-wrapper .actions-toolbar > .action:active,
+.cart.table-wrapper .action-gift:active {
+	box-shadow: none;
+}
+button,
+a.action.primary,
+.cart.table-wrapper .actions-toolbar > .action,
+.cart.table-wrapper .action-gift {
+	border-radius: 0px;
+}
+.action.primary {
+	font-family: 'Lato', sans-serif;
+	background: #653434 none repeat scroll 0 0;
+	border: 1px solid #653434; 
+	margin-top: 20px;
+	transition: all .3s ease-in-out;
+	border-radius: 3px;
+}
+.action.primary:hover {
+	background: #F17A31 none repeat scroll 0 0;
+	border: 1px solid #F17A31;
+}
+.action.primary:focus,
+.action.primary:active {
+	background: #F17A31;
+	border: 1px solid #F17A31;
+	color: #ffffff;
+}
+div.mage-error[generated] {
+	margin-top: 3px;
+}
+
+.abs-margin-for-forms-desktop,
+form .fieldset .legend,
+.column:not(.sidebar-main) form div.actions-toolbar,
+.column:not(.sidebar-additional) form div.actions-toolbar,
+.login-container form .fieldset:after {
+	margin-left: 0px;
+}
+
+
+
+form .fieldset > .field:not(.choice) > .label,
+form .fieldset > .field > .label {
+	margin-left: 0px;
+	width: 100%;
+	padding: 0px;
+	text-align: left;
+	margin-bottom: 5px;
+}
+form .fieldset > .field > .control,
+form .fieldset > .field:not(.choice) > .control {
+	width: 100%;
+}
+form .fieldset > .field.choice:before,
+form .fieldset > .field.no-label:before {
+	padding: 0px;
+	width: auto;
+}
+
+.page-print .sections.nav-sections {
+	display: none;
+}
+/* ===================================================================== */
+
+/* Header ============================================================== */
+
+/* ===================================================================== */
+
+/* Navigation ========================================================== */
+
+/* ===================================================================== */
+
+/* Slider general ====================================================== */
+
+/* ===================================================================== */
+
+/* Home page =========================================================== */
+
+/* ===================================================================== */
+
+/* Catalog page ======================================================== */
+
+/* ===================================================================== */
+
+/* Search page ========================================================= */
+
+/* ===================================================================== */
+
+/* Product page ======================================================== */
+
+/* ===================================================================== */
+
+/* Cart page =========================================================== */
+
+/* ===================================================================== */
+
+/* Account page ======================================================== */
+
+/* ===================================================================== */
+
+/* Contact page ======================================================== */
+
+/* ===================================================================== */
+
+/* CMS page ============================================================ */
+
+/* ===================================================================== */
+
+/* Blog page =========================================================== */
+
+/* ===================================================================== */
+

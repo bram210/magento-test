@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2017 BURO210.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+   <head>
+		<!-- <link rel="icon" type="image/png" src="images/favicon-150x150.png" sizes="16x16" /> -->
+		<!-- <link rel="icon" type="image/png" src="images/favicon-150x150.png" sizes="32x32" /> -->
+		<!-- <link rel="icon" type="image/png" src="images/favicon-211x211.png" sizes="192x192" /> -->
+		<css src="css/style.css" media="all" />
+   </head>
+</page>

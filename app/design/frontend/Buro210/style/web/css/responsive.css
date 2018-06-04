@@ -1,0 +1,91 @@
+/* Default magento ===================================================== */
+/*
+==================================
+=== MEDIA QUERY 680px and below ===
+==================================
+*/
+@media only screen and (max-width: 780px) {
+	
+}
+
+
+/*
+== MEDIA QUERY 1440px and more ==
+*/
+@media only screen and (min-width: 1440px) {
+
+}
+/*
+=== MEDIA QUERY 981px - 1240px ===
+*/
+@media only screen and (min-width: 981px) and (max-width: 1240px) {
+
+}
+/*
+=== MEDIA QUERY 781px - 980px ===
+*/
+@media only screen and (min-width: 781px) and (max-width: 980px) {
+
+}
+/*
+=== MEDIA QUERY 641px - 780px ==
+*/
+@media only screen and (min-width: 641px) and (max-width: 780px) {
+
+}
+/*
+=== MEDIA QUERY 481px - 640px ==
+*/
+@media only screen and (min-width: 481px) and (max-width: 640px) {
+
+}
+/*
+=== MEDIA QUERY 480px and less ==
+*/
+@media only screen and (max-width: 480px) {
+
+}
+
+/* ===================================================================== */
+
+
+/* Custom queries ====================================================== */
+/*
+==================================
+=== MEDIA QUERY 1440px and below ===
+==================================
+*/
+@media only screen and (max-width: 1440px) {
+
+}
+
+/*
+==================================
+=== MEDIA QUERY 1024px and below ===
+==================================
+*/
+@media only screen and (max-width: 1024px) {
+	
+}
+
+/*
+==================================
+=== MEDIA QUERY 640px and below ===
+==================================
+*/
+@media only screen and (max-width: 640px) {
+	
+}
+
+/*
+==================================
+=== MEDIA QUERY 480px and below ===
+==================================
+*/
+@media only screen and (max-width: 480px) {
+	
+}
+
+/* ===================================================================== */
+
+

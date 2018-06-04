@@ -1,0 +1,26 @@
+{
+    "name": "burotranslation/magento2-nl-nl",
+    "description": "Kopie van H&O",
+    "homepage": "https://github.com/ho-nl/magento2-Ho_nl_NL",
+    "authors": [
+        {
+            "name": "Paul Hachmang - H&O",
+            "email": "paul@h-o.nl"
+        }
+    ],
+    "require": {
+        "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
+    },
+    "type": "magento2-language",
+    "license": "BSD-2-Clause",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1-dev"
+        }
+    }
+}

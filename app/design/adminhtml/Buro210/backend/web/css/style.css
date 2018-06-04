@@ -1,0 +1,92 @@
+.menu-wrapper .logo .logo-img {
+	width: 6rem;
+	height: 5.3rem;
+}
+#slide_tabs_main_section_content .field-caption_position {
+	display: none;
+}
+/* >>>>>>>>>>>>>>>>>> */
+nav .menu .item-elements[data-ui-id*=magefan-blog] li[data-ui-id*=magefan-blog-import] {
+	display: none;
+}
+nav .menu .item-elements[data-ui-id*=magefan-blog] li[data-ui-id*=magefan-blog-category] {
+	display: none;
+}
+/*remove cats*/
+.blog-post-edit [data-index*=title] + fieldset.admin__field[data-index*=container_categories] {
+	display: none;
+}
+/*remove tags*/
+.blog-post-edit .fieldset-wrapper[data-index*=additional_options] [data-index*=author_id] + fieldset.admin__field[data-index*=container_tags] {
+	display: none;
+}
+/* >>>>>>>>>>>>>>>>>> */
+
+
+.flexslider-group-edit #edit_form .field-group_sort_order {
+	display: none;
+}
+.flexslider-group-edit #edit_form .field-group_random_slides {
+	display: none;
+}
+.flexslider-group-edit #edit_form .field-group_startdate {
+	display: none;
+}
+.flexslider-group-edit #edit_form .field-group_enddate {
+	display: none;
+}
+.flexslider-group-edit #edit_form #flexslider_navigation_fieldset .field-nav_style {
+	display: none;
+}
+.flexslider-group-edit #edit_form #flexslider_navigation_fieldset .field-nav_size {
+	display: none;
+}
+.flexslider-group-edit #edit_form #flexslider_navigation_fieldset .field-nav_position {
+	display: none;
+}
+.flexslider-group-edit #edit_form #flexslider_navigation_fieldset .field-nav_color {
+	display: none;
+}
+.flexslider-group-edit #edit_form #flexslider_appearance_fieldset {
+	display: none;
+}
+.flexslider-group-edit #edit_form #flexslider_loader_fieldset {
+	display: none;
+}
+.flexslider-group-edit #edit_form #flexslider_caption_fieldset {
+	display: none;
+}
+.flexslider-group-edit #edit_form #flexslider_pagination_fieldset {
+	/*display: none;*/
+}
+.flexslider-group-edit #edit_form #flexslider_pagination_fieldset .field-pagination_style {
+	display: none;
+}
+.flexslider-group-edit #edit_form #flexslider_pagination_fieldset .field-pagination_position {
+	display: none;
+}
+.flexslider-group-edit #edit_form #flexslider_pagination_fieldset .field-pagination_color {
+	display: none;
+}
+.flexslider-group-edit #edit_form #flexslider_pagination_fieldset .field-pagination_hover_color {
+	display: none;
+}
+.flexslider-group-edit #edit_form #flexslider_pagination_fieldset .field-pagination_active_color {
+	display: none;
+}
+.flexslider-group-edit #edit_form #flexslider_effects_fieldset {
+	display: none;
+}
+
+.flexslider-slide-edit #edit_form .field-slide_startdate {
+	display: none;
+}
+.flexslider-slide-edit #edit_form .field-slide_enddate {
+	display: none;
+}
+
+
+
+.admin__menu li#menu-magento-marketplace-partners {
+	display: none;
+}

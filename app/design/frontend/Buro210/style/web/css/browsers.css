@@ -1,0 +1,20 @@
+/*
+* For more Browser specific styling
+* https://browserstrangeness.bitbucket.io/css_hacks.html
+*
+*
+*/
+
+
+
+/* All edge */
+@supports (-ms-ime-align:auto) {
+
+}
+/* All Internet Explorer but ie8 */
+@media screen and (min-width:0\0) and (min-resolution:+72dpi), \0screen\,screen\9 { 
+
+}
+
+/* Any Firefox */
+_:-moz-tree-row(hover), .selector-placeholder { color:green; }

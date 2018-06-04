@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2017 - BURO210
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<body>
+
+		<!-- Header -->
+		<!-- <referenceBlock name="top.links" remove="true"/> -->
+
+<!-- 
+		<referenceBlock name="store.menu">
+			<block name="menu" class="Blackbird\MenuManager\Block\Menu">
+				<arguments>
+					<argument name="menu" xsi:type="string">main_menu</argument>
+				</arguments>
+			</block>
+		</referenceBlock>
+ -->
+
+		<referenceContainer name="header.panel">
+
+			<referenceBlock name="top.links">
+
+			</referenceBlock>
+
+		</referenceContainer>
+
+		<referenceContainer name="header-wrapper">
+
+		</referenceContainer>
+
+
+		 <!-- Footer -->
+		<referenceBlock name="form.subscribe" remove="true" />
+		<referenceBlock name="footer_links" remove="true" />
+		<referenceBlock name="copyright" remove="true" />
+		<referenceBlock name="report.bugs" remove="true" />
+
+		<referenceContainer name="footer-container">
+			
+		</referenceContainer>
+
+
+		<!-- Removing stuff -->
+		<referenceContainer name="sidebar.main">
+			<!-- <referenceBlock name="catalogsearch.leftnav" remove="true"/> -->
+			<!-- <referenceBlock name="catalog.leftnav" remove="true"/> -->
+			<!-- <referenceBlock name="catalog.compare.sidebar" remove="true"/> -->
+			<!-- <referenceBlock name="wishlist_sidebar" remove="true"/> -->
+		</referenceContainer>
+	</body>
+</page>
